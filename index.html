@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>CS Survival Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <nav>
-    <div>
-      <div>
-        <a href="#">CS Survival Guide</a>
+  <nav class="navbar navbar-default">
+    <div class= "container-fluid">
+      <div class="navbar-header">
+        <button type="button" data-target="#menu" class="navbar-toggle" data-toggle="collapse"><span class = "icon-bar"></span><span class = "icon-bar"></span><span class = "icon-bar"></span></button>
+        <a class="navbar-brand" href="#">CS Survival Guide</a>
       </div>
-      <ul>
-        <li><a href="#">Home</a></li>
+      <ul class="nav navbar-nav collapse navbar-collapse" id="menu">
+        <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Favorite Classes</a></li>
         <li><a href="#">Top Languages</a></li>
       </ul>
-      <ul>
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">Login</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Login</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="page_header">
-    <div>
+  <div class="container-fluid">
+    <div class="jumbotron">
       <h1>Dartmouth CS Survival Guide</h1>
       <p>Welcome to the homepage of the Dartmouth CS Survival Guide – your home
         for helpful tips, tricks, and stories to help you get through your time
@@ -116,5 +119,8 @@
         <li><a href="#">Professors</a></li>
       </ul>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
   </html>
